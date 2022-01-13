@@ -1,0 +1,23 @@
+.followus{
+    color:green;
+    font-family:Neonderthaw,cursive ;
+    font-size: 40px;
+}
+.followus:hover{
+    color:yellowgreen
+}
+.logo_insta{
+    height: 60px;
+    border: solid black;
+    border-radius: 20px;
+}
+.logo_tiktok:hover,
+.logo_insta:hover{
+    background-color: rgb(26, 158, 26);
+}
+
+.logo_tiktok{
+    height: 60px;
+    border: solid black;
+    border-radius: 20px;
+}

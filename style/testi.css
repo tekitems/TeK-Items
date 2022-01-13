@@ -1,0 +1,116 @@
+@keyframes titolo{
+    0%{opacity: 0;
+    transform: translateX(200px);};
+    100%{opacity:1;
+    transform:translateX(0px);}}
+@keyframes items{
+    0%{opacity: 0;
+    transform:translateX(0px);}
+100%{opacity: 1;
+    transform:translateX(200px);}}
+@keyframes coming_soon {
+    0%{opacity: 0;}
+    100%{opacity:1}}
+
+.containers{
+    
+    display:flex;
+    padding:15px;
+    margin:10px;
+    background-color: white;
+    justify-content:center;
+}
+
+
+.t,.e,.k{
+    font-family:Luckiest Guy,cursive;
+    animation-name: titolo;
+    animation-timing-function: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count:1;
+    transform: translateX(0px);
+    flex-wrap: wrap;
+    justify-content: center;
+
+  padding:10px;
+  margin:10px;
+  background-color: rgb(0, 255, 0);
+  border-radius: 20px;  
+  font-size: 40px;
+  flex-wrap: wrap;
+  border:solid black;
+}
+.t{animation-delay: 150ms;}
+.e{animation-delay:250ms;}
+.k{animation-delay: 450ms;}
+
+
+
+.items{
+    border-radius: 10px;
+    font-size:  30px;
+    font-family:The Nautigal,cursive ;
+    animation-name: items;
+    animation-timing-function: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 100ms;
+    animation-direction: normal;
+    animation-iteration-count:1;
+    transform: translateX(200px);
+    font-size: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container_intestazione{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.botton_home{
+    padding:15px;
+    margin:10px;
+    background-color:green;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family:The Nautigal,cursive ;
+    font-size: 30px;
+    border:solid black;
+}
+
+.botton_home:hover{
+    color: rgb(0, 255, 0);
+    padding :16px;
+    background-color: rgb(3, 154, 3);
+    }
+    
+.coming_soon{
+    font-family:Shadows Into Light,cursive ;
+    animation-name: coming_soon;
+    animation-timing-function: 1s;
+    animation-duration: 4500ms;
+    animation-fill-mode: forwards;
+    animation-delay: 100ms;
+    animation-direction: normal;
+    animation-iteration-count:1;}
+
+    .mfi{
+        display: flex;
+        padding:60px;
+        margin:50px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-wrap: nowrap ;
+    }
+    .centrale{
+        padding:15px;
+        margin: 10px;
+        background-color:rgb(182, 248, 83);
+        border-radius: 10px;
+        border-style:dashed;
+    }
