@@ -9,7 +9,7 @@
 100%{opacity: 1;
     transform:translateX(200px);}}
 @keyframes coming_soon {
-    0%{opacity: 0;}
+    0%{opacity: 0;font-size:100px}
     100%{opacity:1}}
 
 .containers{
@@ -89,6 +89,50 @@
     background-color: rgb(3, 154, 3);
     }
     
+
+    .tiktok_image{height: 40px;}
+
+    .tiktok{
+        padding:10px;
+        margin:10px;
+        background:radial-gradient(rgb(0, 255, 255),salmon);
+        border:none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family:The Nautigal,cursive ;
+        font-size: 30px;
+        border:solid black;
+    }
+    
+    .tiktok:hover{
+         padding :11px;
+        }
+
+        .instagram_image{
+            height: 40px;}
+
+    .instagram{
+        padding:10px;
+        margin:10px;
+        background:radial-gradient(rgb(255, 255, 112),rgb(255, 94, 0),rgb(114, 0, 114));
+        border:none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family:The Nautigal,cursive ;
+        font-size: 30px;
+        border:solid black;
+    }
+    
+    .instagram:hover{
+        color: rgb(0, 255, 0);
+        padding :11px;
+        background: linear-gradient(to right rgb(0, 247, 255) );
+        }
+
+
+
+
+
 .coming_soon{
     font-family:Shadows Into Light,cursive ;
     animation-name: coming_soon;
