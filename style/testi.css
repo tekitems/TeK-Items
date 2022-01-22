@@ -10,16 +10,15 @@
     transform:translateX(200px);}}
 @keyframes coming_soon {
     0%{opacity: 0;font-size:100px}
-    100%{opacity:1}}
+    100%{opacity:1;font-size: 25px;}}
 
 .containers{
     
     display:flex;
     padding:15px;
     margin:10px;
-    background-color: white;
-    justify-content:center;
-}
+    /*background-color: white;*/
+    justify-content:center;}
 
 
 .t,.e,.k{
@@ -68,7 +67,7 @@
     display:flex;
     justify-content: left;
     align-items: center;
-    margin-top: 20px;
+  /*  margin-top: 20px;*/
 }
 
 .botton_home{
@@ -96,6 +95,7 @@
         padding:10px;
         margin:10px;
         background:radial-gradient(rgb(0, 255, 255),salmon);
+       /* background-image:linear-gradient(to right rgb(0, 255, 255),salmon) ;*/
         border:none;
         border-radius: 10px;
         cursor: pointer;
@@ -106,6 +106,7 @@
     
     .tiktok:hover{
          padding :11px;
+         background:radial-gradient(rgb(0, 255, 157),salmon);
         }
 
         .instagram_image{
@@ -126,11 +127,8 @@
     .instagram:hover{
         color: rgb(0, 255, 0);
         padding :11px;
-        background: linear-gradient(to right rgb(0, 247, 255) );
+        background:radial-gradient(rgb(255, 255, 112),rgb(255, 30, 0),rgb(114, 0, 114));
         }
-
-
-
 
 
 .coming_soon{
@@ -142,19 +140,3 @@
     animation-delay: 100ms;
     animation-direction: normal;
     animation-iteration-count:1;}
-
-    .mfi{
-        display: flex;
-        padding:60px;
-        margin:50px;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        flex-wrap: nowrap ;
-    }
-    .centrale{
-        padding:15px;
-        margin: 10px;
-        background-color:rgb(182, 248, 83);
-        border-radius: 10px;
-        border-style:dashed;
-    }
