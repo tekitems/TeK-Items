@@ -21,7 +21,7 @@ background: linear-gradient(to left top, red,blue);}
 }
 
 .bg-image{
-  background-image: url(sfondi/metaverse1.jpg);
+  background-image: url(metaverse1.jpg);
   background-attachment: fixed;
   height: 750px;
   background-repeat: no-repeat;
