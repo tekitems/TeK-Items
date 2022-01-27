@@ -4,16 +4,18 @@
     100%{opacity:1;
     transform:translateX(0px);}}
 @keyframes items{
-    0%{opacity: 0;
-    transform:translateX(0px);}
+0%{opacity: 0;
+    transform: rotatez(0deg);
+    color:black}
+50%{opacity: 0.5;
+    color:rgb(9, 255, 0);}
 100%{opacity: 1;
-    transform:translateX(200px);}}
+    transform: rotatez(360deg);  text-shadow: 5px 2px 2px #000000;}}
 @keyframes coming_soon {
-    0%{opacity: 0;font-size:100px}
+    0%{opacity: 0;font-size:75px}
     100%{opacity:1;font-size: 25px;}}
 
 .containers{
-    
     display:flex;
     padding:15px;
     margin:10px;
@@ -22,6 +24,9 @@
 
 
 .t,.e,.k{
+    text-shadow: -4px 2px 2px #003cff;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
     font-family:Luckiest Guy,cursive;
     animation-name: titolo;
     animation-timing-function: 1s;
@@ -46,6 +51,10 @@
 .k{animation-delay: 450ms;}
 
 
+.item_containerintestazione{
+    display: inline-block;
+}
+
 
 .items{
     border-radius: 10px;
@@ -53,26 +62,22 @@
     font-family:The Nautigal,cursive ;
     animation-name: items;
     animation-timing-function: 1s;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
     animation-delay: 100ms;
     animation-direction: normal;
     animation-iteration-count:1;
-    transform: translateX(200px);
     font-size: 100px;
     flex-wrap: wrap;
     justify-content: center;
     color:green;
 }
-.container_intestazione{
-    display:flex;
-    justify-content: left;
-    align-items: center;
-  /*  margin-top: 20px;*/
-}
+
+
+
 
 .botton_home{
-    padding:15px;
+    padding:10px;
     margin:10px;
     background-color:green;
     border:none;
@@ -85,15 +90,20 @@
 
 .botton_home:hover{
     color: rgb(0, 255, 0);
-    padding :16px;
+    padding :11px;
     background-color: rgb(3, 154, 3);
+    box-shadow: 1px 1px 46px 14px rgba(0,255,10,0.75);
+    -webkit-box-shadow: 1px 1px 46px 14px rgba(0,255,10,0.75);
+    -moz-box-shadow: 1px 1px 46px 14px rgba(0,255,10,0.75);
     }
     
 
-    .tiktok_image{height: 40px;}
+    .tiktok_image{
+        height: 35px;}
 
     .tiktok{
         padding:10px;
+        padding-bottom: 10px ;
         margin:10px;
         background:radial-gradient(rgb(0, 255, 255),salmon);
        /* background-image:linear-gradient(to right rgb(0, 255, 255),salmon) ;*/
@@ -108,6 +118,9 @@
     .tiktok:hover{
          padding :11px;
          background:radial-gradient(rgb(0, 255, 157),salmon);
+         box-shadow: 1px 1px 46px 14px rgba(0,255,10,0.75);
+        -webkit-box-shadow: 1px 1px 46px 14px rgba(0,255,10,0.75);
+        -moz-box-shadow: 1px 1px 46px 14px rgba(0,255,10,0.75);
         }
 
         .instagram_image{
@@ -129,6 +142,9 @@
         color: rgb(0, 255, 0);
         padding :11px;
         background:radial-gradient(rgb(255, 255, 112),rgb(255, 30, 0),rgb(114, 0, 114));
+        box-shadow: 1px 1px 46px 14px rgba(0,255,10,0.75);
+        -webkit-box-shadow: 1px 1px 46px 14px rgba(0,255,10,0.75);
+        -moz-box-shadow: 1px 1px 46px 14px rgba(0,255,10,0.75);
         }
 
 
@@ -142,3 +158,45 @@
     animation-delay: 100ms;
     animation-direction: normal;
     animation-iteration-count:1;}
+
+
+.chi_siamo{
+        float:left;
+        padding:10px;
+        font-variant: small-caps ;
+        text-decoration: underline;
+        color:rgb(255, 0, 0,0.6);
+        margin-left: 10px;
+      }
+
+    .list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;}
+
+
+    .obj_list{
+      -webkit-box-shadow: 1px 1px 13px 6px #000000; 
+      box-shadow: 1px 1px 13px 6px #000000;
+      color: green;
+      padding:10px;
+      border:solid black;
+      margin:5px;
+      border-radius:15px;
+      margin-right:50px;
+      font-family: Luckiest Guy,cursive;
+      text-decoration: underline;
+            }
+
+    .prima-frase{
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+    .footer{text-align: center;}
+
+    .padre .item_containerintestazione:nth-child(4){
+    height: 40px;
+    float: right;
+    }
