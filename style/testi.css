@@ -204,3 +204,12 @@
     .immagine_a_destra{
         float: right;
     }
+    .item_containerintestazione :nth-child(1):visited{
+        color:black;
+    }
+
+
+
+    .item_containerintestazione :nth-child(1):visited:hover{
+    color: rgb(0, 255, 0);
+    }
