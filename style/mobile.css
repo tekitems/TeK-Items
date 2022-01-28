@@ -1,0 +1,18 @@
+@media screen and (max-width:768px) {
+header{width: 100%; margin-bottom: 0px;}
+.t,.e,.k{font-size: 25px;}
+.botton_home{font-size: 20px;}
+.instagram_image{height: 25px;}
+.item_containerintestazione:nth-child(1){transform:translatey(-2.5px) ;}
+.tiktok_image{height: 25px;}
+.boxsimg{height: 60px; transform: translatey(-5px);}
+.elemento-video{width: 45%;}
+.items{font-size: 55px;}
+.item_containerintestazione{margin-top: 15px;}
+.instagram{padding:5px;}
+.tiktok{padding: 5px;}
+.bg-image{background-position: center;height: 500px; background-size: cover;}
+.list{width:50%}
+.prima-frase{width: 100%;}
+
+}
