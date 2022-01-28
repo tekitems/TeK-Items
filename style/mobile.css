@@ -1,8 +1,12 @@
 @media screen and (max-width:768px) {
-.elemento-video{
-width: 300px;}
-.header{padding-bottom:40px}
-.logo{margin-right:20px}
+.elemento-video{width: 300px;}
+.header{width: 100%;}
+.bg-image{background-attachment: fixed;}
+
+.prima_parte_del_sito{display: block;
+                      width: 100%;}
+.seconda_parte_del_sito{display: block;
+                        width: 100%;}
 
 
 }
