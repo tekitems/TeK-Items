@@ -200,3 +200,7 @@
     height: 40px;
     float: right;
     }
+
+    .immagine_a_destra{
+        float: right;
+    }
