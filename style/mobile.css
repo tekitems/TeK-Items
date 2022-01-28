@@ -12,11 +12,8 @@ header{width: 100%; margin-bottom: 0px;}
 .instagram{padding:5px;}
 .tiktok{padding: 5px;}
 .bg-image{  background-position: center; height: 500px;  background-size: cover;}
-.list{justify-items:left left;
-        margin: 0px;
-    margin-top:10px;}
+.list{  justify-content:center;margin-top:10px;}
 .obj_list{margin: 6px; font-size: 10px;}
-.prima-frase{display:block; margin-left: 10px; width: 100%; font-size: 15px;}
+.prima-frase{display:block; margin-left: 10px; width: 95%; font-size: 15px;}
 .seconda_immagine{margin-left: 10px;}
-
 }
