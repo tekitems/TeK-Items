@@ -162,6 +162,7 @@
 
 .chi_siamo{
         float:left;
+        display:block;
         padding:10px;
         font-variant: small-caps ;
         text-decoration: underline;
@@ -191,8 +192,11 @@
              }
 
     .prima-frase{
-    display: inline-block;
+    float:left;
+    margin-left:16%;
+    display: block;
     font-family:  'Luckiest Guy', cursive;
+    font-size: 20px;
     }
 
     .footer{text-align: center;}

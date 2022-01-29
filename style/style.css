@@ -15,6 +15,7 @@ header{
   background-image: url(bgimage_.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
+ background-color:rgb(68, 65, 65);
 }
 .contenitore_2immagine{
 display: flex;
@@ -56,6 +57,7 @@ justify-content: center;
   border-radius: 40px;  
   border:solid rgb(24, 23, 23);
   background-color:rgb(0, 60, 255, 0.4);
+  margin-bottom:10px;
 }
 
 .immagine_a_destra{ 
