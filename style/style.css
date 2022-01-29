@@ -1,10 +1,10 @@
 body{margin: 0;
 margin-top: 0;
 /*background: linear-gradient(to left top, blue, red);}*/
-background: linear-gradient(to left top, red,blue);}
+background: linear-gradient(purple,blue,white);}
 
 header{
-  background-color:rgb(116, 3, 116);
+  background-color: rgb(68, 65, 65);
   margin-bottom:10px;
   width: 100%;
   padding-bottom: 20px;
@@ -12,7 +12,7 @@ header{
   
 }
 .bg-image{
-  background-image: url(bgimage.jpg);
+  background-image: url(bgimage_.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
@@ -57,3 +57,8 @@ justify-content: center;
   border:solid rgb(24, 23, 23);
   background-color:rgb(0, 60, 255, 0.4);
 }
+
+.immagine_a_destra{ 
+                    -webkit-box-shadow: 3px 1px 8px 5px #000000;                   
+                    box-shadow: 3px 1px 8px 5px #000000;
+                  }

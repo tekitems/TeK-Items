@@ -165,7 +165,7 @@
         padding:10px;
         font-variant: small-caps ;
         text-decoration: underline;
-        color:rgb(255, 0, 0,0.6);
+        color:whitesmoke;
         margin-left: 10px;
       }
 
@@ -187,11 +187,12 @@
       margin-right:50px;
       font-family: Luckiest Guy,cursive;
       text-decoration: underline;
-            }
+      background-color: whitesmoke;
+             }
 
     .prima-frase{
     display: inline-block;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:  'Luckiest Guy', cursive;
     }
 
     .footer{text-align: center;}

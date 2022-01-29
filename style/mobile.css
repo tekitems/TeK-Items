@@ -1,7 +1,7 @@
 @media screen and (max-width:768px) {
 .bg-image{ background-position: center; height:  500px;  background-size: cover; background-attachment: fixed;}
 header{width: 100%; margin-bottom: 0px;}
-.t,.e,.k{font-size: 25px;}
+.t,.e,.k{font-size: 25px; text-shadow: -1px 2px 1px #003cff;}
 .botton_home{font-size: 20px;}
 .instagram_image{height: 25px;}
 .item_containerintestazione:nth-child(1){transform:translatey(-2.5px) ;}
@@ -16,4 +16,6 @@ header{width: 100%; margin-bottom: 0px;}
 .obj_list{margin: 6px; font-size: 10px;}
 .prima-frase{display:block; margin-left: 10px; width: 95%; font-size: 15px;}
 .seconda_immagine{margin-left: 10px;}
+.elemento-video{margin-bottom:40px;}
+.immagine_a_destra{margin-top: 20px;}
 }
