@@ -12,8 +12,9 @@
 100%{opacity: 1;
     transform: rotatez(360deg);  text-shadow: 5px 2px 2px #000000;}}
 @keyframes coming_soon {
-    0%{opacity: 0;font-size:75px}
-    100%{opacity:1;font-size: 25px;}}
+    0%{opacity: 0;font-size:45px;color: red; transform: rotatey(0deg);}
+    50%{color: green;}
+    100%{opacity:1;font-size: 25px;transform: rotatey(360deg);}}
 
 .containers{
     display:flex;
@@ -52,7 +53,7 @@
 
 
 .item_containerintestazione{
-    display: inline-block;
+ display: inline-block;
 }
 
 
@@ -77,6 +78,7 @@
 
 
 .botton_home{
+    color: black;
     padding:10px;
     margin:10px;
     background-color:green;
@@ -148,14 +150,21 @@
         }
 
 
+
+.container_coming_soon{ 
+    display: flex;
+    justify-content: center;}
+
 .coming_soon{
+
     color:blue;
-    font-family:Shadows Into Light,cursive ;
+    font-family: 'Monoton', cursive;
     animation-name: coming_soon;
-    animation-timing-function: 1s;
+    animation-timing-function: 100ms;
     animation-duration: 4500ms;
-    animation-fill-mode: forwards;
+    animation-fill-mode:forwards;
     animation-delay: 100ms;
+    margin-left: 10px;
     animation-direction: normal;
     animation-iteration-count:1;}
 
@@ -174,7 +183,7 @@
     list-style-type: none;
     display: flex;
     justify-content: center;
-    margin-top: 10%;}
+    margin-top: 0px;}
 
 
     .obj_list{
@@ -182,13 +191,13 @@
       box-shadow: 1px 1px 13px 6px #000000;
       color: green;
       padding:10px;
-      border:solid black;
+      border:solid rgb(36, 36, 36);
       margin:5px;
       border-radius:15px;
       margin-right:50px;
       font-family: Luckiest Guy,cursive;
       text-decoration: underline;
-      background-color: whitesmoke;
+      background-color: rgba(189, 189, 189, 0.3);
              }
 
     .prima-frase{
@@ -198,6 +207,18 @@
     font-family:  'Luckiest Guy', cursive;
     font-size: 20px;
     }
+
+
+.seconda-frase{
+
+margin-left:10px;
+display: block;
+font-family:'Luckiest Guy', cursive;
+font-size: 15px;
+}
+
+
+
 
     .footer{text-align: center;font-family: 'Indie Flower', cursive;}
 
