@@ -9,7 +9,7 @@ header{width: 100%; margin-bottom: 0px;}
 .tiktok_image{height: 25px;}
 .boxsimg{height: 60px; transform: translatey(-5px);}
 .elemento-video{width: 45%;}
-.items{font-size: 55px; }
+.items{font-size: 55px;  text-shadow: 1px 2px 1px #000000; }
 .item_containerintestazione{margin-top: 15px;}
 .instagram{padding:5px;}
 .tiktok{padding: 5px;}

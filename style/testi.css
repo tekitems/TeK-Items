@@ -10,7 +10,7 @@
 50%{opacity: 0.5;
     color:rgb(9, 255, 0);}
 100%{opacity: 1;
-    transform: rotatez(360deg);  text-shadow: 5px 2px 2px #000000;}}
+    transform: rotatez(360deg);   }} /*stava la text shadow*/
 @keyframes coming_soon {
     0%{opacity: 0;font-size:45px;color: red; transform: rotatey(0deg);}
     50%{color: green;}
@@ -58,6 +58,7 @@
 
 
 .items{
+    text-shadow: 5px 2px 2px #000000;
     border-radius: 10px;
     font-size:  30px;
     font-family:The Nautigal,cursive ;
@@ -155,6 +156,8 @@
     display: flex;
     justify-content: center;}
 
+
+    
 .coming_soon{
 
     color:blue;
@@ -209,12 +212,20 @@
     }
 
 
-.seconda-frase{
+.contenitore_seconda_frase{
+    display: flex;
+    justify-content: center;
+}
 
+
+
+.seconda-frase{
+color: rgb(255,0,0, 0.7);
+justify-content: center;
 margin-left:10px;
 display: block;
 font-family:'Luckiest Guy', cursive;
-font-size: 15px;
+font-size: 16px;
 }
 
 
