@@ -1,10 +1,10 @@
 body{margin: 0;
 margin-top: 0;
 /*background: linear-gradient(to left top, blue, red);}*/
-background: linear-gradient(purple,blue,white);}
+background: linear-gradient(blue,blue,white);}
 
 header{
-  background-color: rgb(68, 65, 65);
+  background-color: rgba(58, 58, 63, 0.4);
   margin-bottom:10px;
   width: 100%;
   padding-bottom: 20px;
@@ -12,10 +12,10 @@ header{
   
 }
 .bg-image{
+  background-size:100% ;
   background-image: url(bgimage_.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
- background-color:rgb(68, 65, 65);
 }
 .contenitore_2immagine{
 display: flex;
@@ -60,7 +60,12 @@ justify-content: center;
   margin-bottom:10px;
 }
 
-.immagine_a_destra{ 
-                    -webkit-box-shadow: 3px 1px 8px 5px #000000;                   
-                    box-shadow: 3px 1px 8px 5px #000000;
-                  }
+.immagine_a_destra{  
+   -webkit-box-shadow: 3px 1px 8px 5px #000000;                   
+   box-shadow: 3px 1px 8px 5px #000000;
+ }
+
+.link_cherimanda{
+  transform: translateY(20px);
+}
+
